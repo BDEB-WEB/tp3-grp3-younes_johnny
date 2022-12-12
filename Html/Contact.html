@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
+
        body{
-       
        background-color: #00487C;
        background-image:url(../Images/image\ 12.png);
        color:#818181;
        background-size: cover;
        font-family: 'Kalam', cursive;
+       text-align: center;
        }
 
        h1{
-       text-align: center;
        font-size: 40px;
        font-family: 'Inter', sans-serif;
        text-shadow: 2px 2px black;
@@ -26,54 +26,135 @@
 
        p{
        font-size:1rem;
-       text-align: center;
-       
        }
 
-       input {
-       width: 10%;
+       .fond_onglet{
+      position: absolute;
+      top: 0%;
+      right: -5%;
+      }
+
+     .accueil_onglet{
+     z-index: 1;
+     position: absolute;
+     top: 3%;
+     left: 10%;
+    }
+
+    .evenement_onglet{
+    z-index: 1;
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    }
+
+    .communaute_onglet{
+    z-index: 1;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    }
+
+    .a_propos_onglet{
+    z-index: 1;
+    position: absolute;
+    top: 3%;
+    left: 65%;
+    }
+
+    .contact_onglet{
+    z-index: 1;
+    position: absolute;
+    top: 3%;
+    left: 83%;
     }
 
     </style>
 </head>
 <body>
-    <h1>Formulaire de contact</h1>
-    <p>Contactez-nous pour un devis personnalisé</p>
 
-    <form action="resultat.html" method="get" >
+  <div class="fond_onglet">
+
+    <img src="./Images/Rectangle_blue_onglet.png" alt="" height="145px"; width="5000px";>
+
+</div>
+
+<div class="accueil_onglet">
+
+    <h1> <a href=""> Accueil </a> </h1>
+
+</div>
+
+<div class="evenement_onglet">
+
+    <h1> <a href=""> Événements </a> </h1>
+
+</div>
+
+<div class="communaute_onglet">
+
+    <h1> <a href="">Communauté</a> </h1>
+
+</div>
+
+<div class="a_propos_onglet">
+
+    <h1> <a href="">À propos</a> </h1>
+
+</div>
+
+<div class="contact_onglet">
+
+    <h1> <a href="">Contact</a> </h1>
+
+</div>
+
+    </style>
+</head>
+<body>
+    <h1>Formulaire de contact</h1>
+    <p style="position: relative; top: 2em;">Contactez-nous pour un devis personnalisé</p>
+
     <div>
-    <label>Nom</label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; top: 2em; right:9em;">Nom</label><br>
+    <input style = "position:relative; top: 2em; right: 6.6em; width: 10em;" type="text" name="name"required>
     </div>
 
-    <p><form action="resultat.html" method="get" >
+    <p>
     <div>
-    <label>Prénom </label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; bottom: 2.2em; left: 3.4em;">Prénom </label><br>
+    <input style = "position:relative; bottom: 3em; left: 7.4em; width: 10em;" type="text" name="name"required>
     </div></p>
 
-    <p><form action="resultat.html" method="get" >
+    <p>
     <div>
-    <label>Numéro de téléphone </label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; bottom: 3em; right: 5.4em;">Numéro de téléphone </label><br>
+    <input style = "position:relative; bottom: 4em; left: 0.5em; width: 23.9em;" type="text" name="name"required>
     </div></p>
 
-    <p><form action="resultat.html" method="get" >
+    <p>
     <div>
-    <label>Adresse courriel </label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; bottom: 3.5em; right: 6.5em;">Adresse courriel </label><br>
+    <input style = "position:relative; bottom: 4.5em; left: 0.5em; width: 23.9em;" type="text" name="name"required>
     </div></p>
     
-    <p><form action="resultat.html" method="get" >
+    <p>
     <div>
-    <label>Entreprise (optionnel) </label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; bottom: 3.7em; right: 5.3em;">Entreprise (optionnel)</label><br>
+    <input style = "position:relative; bottom: 4.7em; left: 0.5em; width: 23.9em;" type="text" name="name"required>
     </div></p>
 
-    <p><form action="resultat.html" method="get" >
+    <p>
     <div>
-    <label>Écrivez votre message... </label><br>
-    <input type="text" name="name"required>
+    <label style = "position:relative; bottom: 4em; right: 4.8em;">Écrivez votre message...</label><br>
+    <input style = "position:relative; bottom: 5em; left: 0.5em; width: 23.9em; height: 5em;" type="text" name="name"required>
     </div></p>
+
+    <p style="position: relative; bottom: 3em; left: 46%; width: 8em; color: black; border-style: solid; border-radius: 5px;">
+    Envoyer
+    </p>
+
+<p style="width: 25%; height: 65%; background-color: white; position: absolute; bottom: 7em; left: 36.5em; z-index: -1;"></p>
+
 </body>
 </html>
